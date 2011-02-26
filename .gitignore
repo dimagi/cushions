@@ -1,0 +1,8 @@
+*.pyc
+*~
+localsettings.py
+.project
+.pydevproject
+.idea
+data/*
+*.log
