@@ -1,0 +1,12 @@
+[submodule "submodules/couchforms"]
+	path = submodules/couchforms
+	url = git://github.com/dimagi/couchforms.git
+[submodule "submodules/dimagi-utils"]
+	path = submodules/dimagi-utils
+	url = git://github.com/dimagi/dimagi-utils.git
+[submodule "submodules/receiver"]
+	path = submodules/receiver
+	url = git://github.com/dimagi/receiver.git
+[submodule "submodules/couchexport"]
+	path = submodules/couchexport
+	url = git://github.com/dimagi/couchexport.git
