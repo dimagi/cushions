@@ -1,0 +1,32 @@
+Cushions is a lightweight data-collection tool that uses XForms and CouchDB.
+It's meant to be a server-side backend to JavaRosa or ODK.
+
+It's named for the way that artifacts like spare change collect in the cushions
+of a couch. Your data is collected here for you to find and use later on.
+
+It is currently an extremely bare proof-of-concept collection of tools. Sorry
+about how ugly it is.
+
+INSTALLATION
+
+Download or clone the repostitory from git.
+
+Initialize and update the submodules:
+
+$ git submodule init
+$ git submodule update
+
+Install dependencies
+
+$ pip install -r requirements.txt
+
+If you need to make any changes to settings please add a localsettings.py file 
+to the root directory. This is a good place to configure your django and couch 
+databases.  
+
+Finally, sync and run server.
+
+$ python manage.py syncdb
+$ python manage.py runserver
+
+Cushions should be running at http://localhost:8000

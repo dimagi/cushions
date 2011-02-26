@@ -1,0 +1,7 @@
+django
+couchdbkit
+psycopg2
+python-dateutil
+django-staticfiles
+openpyxl
+xlwt
