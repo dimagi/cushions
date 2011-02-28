@@ -7,9 +7,15 @@ of a couch. Your data is collected here for you to find and use later on.
 It is currently an extremely bare proof-of-concept collection of tools. Sorry
 about how ugly it is.
 
+This assumes you have couchdb, setuptools and pip installed. The easiest way 
+to get couch is to grab an installer from http://www.couch.io/get. We are 
+compatible 1.0.1+.
+
 INSTALLATION
 
 Download or clone the repostitory from git.
+
+If needed, install setuptools and pip.n
 
 Initialize and update the submodules:
 
