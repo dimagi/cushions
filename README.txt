@@ -13,7 +13,7 @@ compatible 1.0.1+.
 
 INSTALLATION
 
-Download or clone the repostitory from git.
+Download or clone the repository from git.
 
 If needed, install setuptools and pip.n
 
