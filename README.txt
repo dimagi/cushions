@@ -16,13 +16,15 @@ Initialize and update the submodules:
 $ git submodule init
 $ git submodule update
 
-Install dependencies
+Install dependencies (must be run as root)
 
-$ pip install -r requirements.txt
+$ sudo pip install -r requirements.txt
 
 If you need to make any changes to settings please add a localsettings.py file 
 to the root directory. This is a good place to configure your django and couch 
-databases.  
+databases. You can use the localsettings.example.py to get you started
+
+$ cp localsettings.example.py localsettings.py  
 
 Finally, sync and run server.
 
