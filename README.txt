@@ -15,7 +15,7 @@ INSTALLATION
 
 Download or clone the repository from git.
 
-If needed, install setuptools and pip.n
+If needed, install setuptools and pip.
 
 Initialize and update the submodules:
 
